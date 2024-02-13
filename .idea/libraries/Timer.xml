@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Timer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Timer_jar/Timer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
