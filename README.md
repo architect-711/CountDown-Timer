@@ -17,6 +17,7 @@ Principles & Patterns:
 * DRY
 * KISS
 * Visitor
+* Conventional Commits
 
 Java Technologies:
 * JFrame
