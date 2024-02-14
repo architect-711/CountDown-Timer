@@ -1,12 +1,16 @@
 # CountDown timer
 
 ## Description
-### Purpose
 Application is an analog of default Windows Timer in [Clock](https://en.wikipedia.org/wiki/Windows_Clock) application.
 Program sets timer and when the time is up, sends notification to user.
 
-Example:<br>
+### Design
+Notification: <br>
 ![notification example](images/notification%20example.png)
+<br>
+Application <br>
+![window_png](images/gui.png)
+
 ### Technologies
 Principles & Patterns:
 * SPR
