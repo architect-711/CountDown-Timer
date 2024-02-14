@@ -18,6 +18,7 @@ public class GUI extends JFrame {
         this.setContentPane(this.panel);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Architect Timer");
+        this.setResizable(false);
         this.pack();
         this.setVisible(true);
     }
