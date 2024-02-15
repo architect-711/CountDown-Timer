@@ -18,12 +18,8 @@ public class SecondsTimeCalculatorTest {
         assertEquals(3600, secondsTimeCalculator.getSecondsTime());
     }
 
-    TimeInputFields getConstructor() {
-        JTextField hours = new JTextField("1");
-        JTextField minutes = new JTextField("0");
-        JTextField seconds = new JTextField("0");
-
-        return new TimeInputFields(hours, minutes, seconds);
+    TimeInputFields getConstructor(String hours, String minutes, String seconds) {
+        return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
 
 
