@@ -12,7 +12,7 @@ public class SecondsTimeCalculatorTest {
 
     @Test
     public void shouldReturn3600() {
-        secondsTimeCalculator = new SecondsTimeCalculator(getConstructor());
+        secondsTimeCalculator = new SecondsTimeCalculator(getConstructor("1", "0", "0"));
         secondsTimeCalculator.calculateTime();
 
         assertEquals(3600, secondsTimeCalculator.getSecondsTime());
