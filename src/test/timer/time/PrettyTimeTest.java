@@ -3,6 +3,7 @@ package test.timer.time;
 import constructors.TimeInputFields;
 import org.junit.jupiter.api.Test;
 import timer.time.PrettyTime;
+import utils.logger.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -31,6 +32,14 @@ class PrettyTimeTest {
         prettyTime.prepareTimeToView();
 
         assertEquals("01:30:10", prettyTime.getPrettyTime());
+    }
+
+    @Test
+    public void shouldReturnIncorrectTime() {
+        prettyTime = new PrettyTime(45936780);
+        prettyTime.prepareTimeToView();
+
+        assertInstanceOf(String.class, prettyTime.getPrettyTime());
     }
 
     private TimeInputFields getParameters(String hours, String minutes, String seconds) {
