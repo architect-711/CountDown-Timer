@@ -32,6 +32,13 @@ public class SecondsTimeCalculatorTest {
         assertThrows(IllegalArgumentException.class, () -> secondsTimeCalculator.calculateTime());
     }
 
+    @Test
+    public void shouldThrowExceptionOnTimeExceedBecauseOfSeconds() {
+        secondsTimeCalculator = new SecondsTimeCalculator(getConstructor("23", "60", "1"));
+
+        assertThrows(IllegalArgumentException.class, () -> secondsTimeCalculator.calculateTime());
+    }
+
     TimeInputFields getConstructor(String hours, String minutes, String seconds) {
         return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
