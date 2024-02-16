@@ -1,6 +1,7 @@
 package timer.time;
 
 import constructors.TimeInputFields;
+import utils.system_sound.SystemSoundCaller;
 
 public class SecondsTimeCalculator {
     private final TimeInputFields timeInputFields;
@@ -32,6 +33,7 @@ public class SecondsTimeCalculator {
     private void checkoutDayLimitExceeding() {
         final int SECONDS_IN_DAY = 86_400;
         if (secondsTime > SECONDS_IN_DAY) {
+            SystemSoundCaller.callErrorSound();
             throw new IllegalArgumentException("Time in seconds exceeds seconds in day");
         }
     }

@@ -1,5 +1,7 @@
 package timer.time;
 
+import utils.system_sound.SystemSoundCaller;
+
 public class PrettyTime {
 
     private String prettyTime;
@@ -13,8 +15,10 @@ public class PrettyTime {
     }
 
     public void prepareTimeToView() {
-        if (secondsTime < 0)
+        if (secondsTime < 0) {
+            SystemSoundCaller.callErrorSound();
             throw new IllegalArgumentException("Seconds time is less than 0");
+        }
 
         countTime();
         makePrettyTime();
@@ -43,7 +47,7 @@ public class PrettyTime {
         String displayMinutes = minutes > 9 ? String.valueOf(minutes) : "0" + minutes;
         String displaySeconds = seconds > 9 ? String.valueOf(seconds) : "0" + seconds;
 
-        prettyTime = String.format("%s:%s:%s\n", displayHours, displayMinutes, displaySeconds);
+        prettyTime = String.format("%s:%s:%s", displayHours, displayMinutes, displaySeconds);
     }
 
     public String getPrettyTime() {
