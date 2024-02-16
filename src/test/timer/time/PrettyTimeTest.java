@@ -25,6 +25,14 @@ class PrettyTimeTest {
         assertEquals(prettyTime.getPrettyTime(), "01:00:00");
     }
 
+    @Test
+    public void shouldReturnHour30Minutes10seconds() {
+        prettyTime = new PrettyTime(5410);
+        prettyTime.prepareTimeToView();
+
+        assertEquals("01:30:10", prettyTime.getPrettyTime());
+    }
+
     private TimeInputFields getParameters(String hours, String minutes, String seconds) {
         return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
