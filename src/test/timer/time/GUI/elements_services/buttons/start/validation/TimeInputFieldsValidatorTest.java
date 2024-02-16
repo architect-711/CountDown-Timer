@@ -19,6 +19,19 @@ public class TimeInputFieldsValidatorTest {
         assertThrows(ValidationException.class, () -> validator.validate());
     }
 
+    @Test
+    public void shouldInsertZeros() {
+        TimeInputFields fields = getParameters("", "", "1");
+        validator = new TimeInputFieldsValidator(fields);
+
+        assertDoesNotThrow(() -> {
+            validator.validate();
+
+            assertEquals("0", fields.hours().getText());
+            assertEquals("0", fields.minutes().getText());
+        });
+    }
+
     private TimeInputFields getParameters(String hours, String minutes, String seconds) {
         return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
