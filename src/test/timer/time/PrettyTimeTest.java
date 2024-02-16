@@ -18,8 +18,9 @@ class PrettyTimeTest {
     @Test
     public void shouldReturnHour() {
         prettyTime = new PrettyTime(3600);
+        prettyTime.prepareTimeToView();
 
-        assertEquals(prettyTime.getPrettyTime(), "01:00:00");
+        assertEquals("01:00:00", prettyTime.getPrettyTime());
     }
 
     @Test
