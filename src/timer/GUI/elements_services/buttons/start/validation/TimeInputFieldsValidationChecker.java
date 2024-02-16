@@ -51,8 +51,11 @@ public class TimeInputFieldsValidationChecker {
 
     public boolean doesntInputExceedLimit() {
         for (JTextField input : inputs) {
-            byte currentTimeNumber = Byte.parseByte(input.getText());
-            if (currentTimeNumber > 60 || currentTimeNumber < 0) {
+            long currentTimeNumber = Byte.parseByte(input.getText());
+            // index 0 belongs to hours field which must not exceed 24
+            boolean condition =  (inputs[0].equals(input) && currentTimeNumber > 24) || currentTimeNumber > 60 || currentTimeNumber < 0;
+
+            if (condition) {
                 return false;
             }
         }
