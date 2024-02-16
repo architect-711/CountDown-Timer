@@ -1,4 +1,4 @@
-package test.timer.time;
+package test;
 
 import org.junit.jupiter.api.Test;
 import timer.time.PrettyTime;

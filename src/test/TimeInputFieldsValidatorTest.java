@@ -1,4 +1,4 @@
-package test.timer.time.GUI.elements_services.buttons.start.validation;
+package test;
 
 import constructors.TimeInputFields;
 import org.junit.jupiter.api.Test;
