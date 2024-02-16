@@ -2,6 +2,7 @@ package timer.GUI.elements_services.buttons.start.validation;
 
 import constructors.TimeInputFields;
 import timer.GUI.elements_services.input.InputTimeFieldsService;
+import utils.system_sound.SystemSoundCaller;
 
 public class TimeInputFieldsValidator {
     private final TimeInputFields timeInputFields;
@@ -18,6 +19,7 @@ public class TimeInputFieldsValidator {
         }
 
         if (!validationChecker.isValid()) {
+            SystemSoundCaller.callErrorSound();
             throw new ValidationException("Impossible to validate.");
         }
     }
