@@ -1,4 +1,4 @@
-package test;
+package test.timer.time;
 
 import constructors.TimeInputFields;
 import org.junit.jupiter.api.Test;
