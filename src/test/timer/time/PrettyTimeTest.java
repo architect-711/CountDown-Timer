@@ -1,13 +1,9 @@
 package test.timer.time;
 
-import constructors.TimeInputFields;
 import org.junit.jupiter.api.Test;
 import timer.time.PrettyTime;
-import utils.logger.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
-
-import javax.swing.*;
 
 class PrettyTimeTest {
     private PrettyTime prettyTime;
@@ -40,9 +36,5 @@ class PrettyTimeTest {
         prettyTime.prepareTimeToView();
 
         assertInstanceOf(String.class, prettyTime.getPrettyTime());
-    }
-
-    private TimeInputFields getParameters(String hours, String minutes, String seconds) {
-        return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
 }
