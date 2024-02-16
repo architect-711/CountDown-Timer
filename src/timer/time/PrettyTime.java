@@ -43,7 +43,7 @@ public class PrettyTime {
         String displayMinutes = minutes > 9 ? String.valueOf(minutes) : "0" + minutes;
         String displaySeconds = seconds > 9 ? String.valueOf(seconds) : "0" + seconds;
 
-        prettyTime = String.format("%s:%s:%s\n", displayHours, displayMinutes, displaySeconds);
+        prettyTime = String.format("%s:%s:%s", displayHours, displayMinutes, displaySeconds);
     }
 
     public String getPrettyTime() {
