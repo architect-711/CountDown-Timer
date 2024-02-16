@@ -40,12 +40,19 @@ public class TimeInputFieldsValidatorTest {
     }
 
     @Test
+    public void shouldThrowExceptionOnHoursExceed() {
+        validator = new TimeInputFieldsValidator(getParameters("25", "0", "0"));
+
+        assertThrows(ValidationException.class, () -> validator.validate());
+    }
+
+    @Test
     public void shouldThrowExceptionOnMinutesBecauseOfTimeExceed() {
         validator = new TimeInputFieldsValidator(getParameters("1", "61", "30"));
 
         assertThrows(ValidationException.class, () -> validator.validate());
     }
-    
+
     @Test
     public void shouldThrowExceptionOnSecondsExceed() {
         validator = new TimeInputFieldsValidator(getParameters("1", "1", "61"));
