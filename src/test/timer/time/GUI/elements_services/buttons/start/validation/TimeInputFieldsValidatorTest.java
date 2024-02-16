@@ -39,6 +39,13 @@ public class TimeInputFieldsValidatorTest {
         assertDoesNotThrow(() -> validator.validate());
     }
 
+    @Test
+    public void shouldThrowExceptionOnMinutesBecauseOfTimeExceed() {
+        validator = new TimeInputFieldsValidator(getParameters("1", "61", "30"));
+
+        assertThrows(ValidationException.class, () -> validator.validate());
+    }
+
     private TimeInputFields getParameters(String hours, String minutes, String seconds) {
         return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
