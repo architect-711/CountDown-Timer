@@ -32,6 +32,13 @@ public class TimeInputFieldsValidatorTest {
         });
     }
 
+    @Test
+    public void shouldBeValid() {
+        validator = new TimeInputFieldsValidator(getParameters("1", "60", "30"));
+
+        assertDoesNotThrow(() -> validator.validate());
+    }
+
     private TimeInputFields getParameters(String hours, String minutes, String seconds) {
         return new TimeInputFields(new JTextField(hours), new JTextField(minutes), new JTextField(seconds));
     }
