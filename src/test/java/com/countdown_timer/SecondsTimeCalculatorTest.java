@@ -1,8 +1,8 @@
-package test;
+package com.countdown_timer.test;
 
-import constructors.TimeInputFields;
+import com.countdown_timer.constructores.TimeInputFields;
 import org.junit.jupiter.api.Test;
-import timer.time.SecondsTimeCalculator;
+import com.countdown_timer.timer.time.SecondsTimeCalculator;
 import static org.junit.jupiter.api.Assertions.*;
 
 import javax.swing.*;

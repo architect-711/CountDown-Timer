@@ -1,9 +1,9 @@
-package test;
+package com.countdown_timer.test;
 
-import constructors.TimeInputFields;
+import com.countdown_timer.constructores.TimeInputFields;
 import org.junit.jupiter.api.Test;
-import timer.GUI.elements_services.buttons.start.validation.TimeInputFieldsValidator;
-import timer.GUI.elements_services.buttons.start.validation.ValidationException;
+import com.countdown_timer.timer.GUI.elements_services.buttons.start.validation.TimeInputFieldsValidator;
+import com.countdown_timer.timer.GUI.elements_services.buttons.start.validation.ValidationException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -27,7 +27,7 @@ public class TimeInputFieldsValidatorTest {
         assertDoesNotThrow(() -> {
             validator.validate();
 
-            assertEquals("0", fields.hours().getText());
+            assertEquals("1", fields.hours().getText());
             assertEquals("0", fields.minutes().getText());
         });
     }

@@ -1,7 +1,7 @@
-package test;
+package com.countdown_timer.test;
 
 import org.junit.jupiter.api.Test;
-import timer.time.PrettyTime;
+import com.countdown_timer.timer.time.PrettyTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
