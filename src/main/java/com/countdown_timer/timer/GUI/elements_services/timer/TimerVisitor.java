@@ -1,6 +1,6 @@
-package timer.GUI.elements_services.timer;
+package com.countdown_timer.timer.GUI.elements_services.timer;
 
-import timer.time.CountdownTimerMechanism;
+import com.countdown_timer.timer.time.CountdownTimerMechanism;
 
 public interface TimerVisitor {
     void visitCountdownTimer(CountdownTimerMechanism timer);

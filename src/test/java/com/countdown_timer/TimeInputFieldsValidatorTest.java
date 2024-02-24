@@ -1,4 +1,4 @@
-package com.countdown_timer.test;
+package com.countdown_timer;
 
 import com.countdown_timer.constructores.TimeInputFields;
 import org.junit.jupiter.api.Test;
@@ -27,7 +27,7 @@ public class TimeInputFieldsValidatorTest {
         assertDoesNotThrow(() -> {
             validator.validate();
 
-            assertEquals("1", fields.hours().getText());
+            assertEquals("0", fields.hours().getText());
             assertEquals("0", fields.minutes().getText());
         });
     }

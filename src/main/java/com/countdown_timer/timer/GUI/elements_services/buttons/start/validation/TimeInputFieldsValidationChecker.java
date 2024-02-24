@@ -1,7 +1,7 @@
-package timer.GUI.elements_services.buttons.start.validation;
+package com.countdown_timer.timer.GUI.elements_services.buttons.start.validation;
 
-import constructors.TimeInputFields;
-import utils.logger.Logger;
+import com.countdown_timer.constructores.TimeInputFields;
+import com.countdown_timer.utils.logger.Logger;
 
 import javax.swing.*;
 import javax.swing.text.JTextComponent;

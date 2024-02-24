@@ -1,4 +1,4 @@
-package timer.GUI;
+package com.countdown_timer.timer.GUI;
 
 import javax.swing.*;
 

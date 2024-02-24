@@ -1,13 +1,13 @@
-package timer.GUI.elements_services.buttons;
+package com.countdown_timer.timer.GUI.elements_services.buttons;
 
-import constructors.ButtonClickHandlerParameters;
-import constructors.Buttons;
-import constructors.CountdownTimerServiceParameters;
-import constructors.TimeFields;
-import timer.GUI.elements_services.buttons.reset.ResetButtonClickHandler;
-import timer.GUI.elements_services.buttons.start.StartButtonClickHandler;
-import timer.GUI.elements_services.buttons.stop.StopButtonClickHandler;
-import timer.GUI.elements_services.timer.CountdownTimerService;
+import com.countdown_timer.constructores.ButtonClickHandlerParameters;
+import com.countdown_timer.constructores.Buttons;
+import com.countdown_timer.constructores.CountdownTimerServiceParameters;
+import com.countdown_timer.constructores.TimeFields;
+import com.countdown_timer.timer.GUI.elements_services.buttons.reset.ResetButtonClickHandler;
+import com.countdown_timer.timer.GUI.elements_services.buttons.start.StartButtonClickHandler;
+import com.countdown_timer.timer.GUI.elements_services.buttons.stop.StopButtonClickHandler;
+import com.countdown_timer.timer.GUI.elements_services.timer.CountdownTimerService;
 
 import java.awt.event.ActionEvent;
 

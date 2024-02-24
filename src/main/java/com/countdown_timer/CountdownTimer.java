@@ -1,5 +1,7 @@
-import timer.GUI.GUI;
-import timer.GUI.elements_services.window.OnWindowLoadHandler;
+package com.countdown_timer;
+
+import com.countdown_timer.timer.GUI.GUI;
+import com.countdown_timer.timer.GUI.elements_services.window.OnWindowLoadHandler;
 
 public class CountdownTimer {
     private final GUI gui = new GUI();

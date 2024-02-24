@@ -1,9 +1,9 @@
-package timer.GUI.elements_services.timer;
+package com.countdown_timer.timer.GUI.elements_services.timer;
 
-import constructors.CountdownTimerServiceParameters;
-import timer.time.CountdownTimerMechanism;
-import timer.time.CountdownTimerWindowInfluencer;
-import timer.time.SecondsTimeCalculator;
+import com.countdown_timer.constructores.CountdownTimerServiceParameters;
+import com.countdown_timer.timer.time.CountdownTimerMechanism;
+import com.countdown_timer.timer.time.CountdownTimerWindowInfluencer;
+import com.countdown_timer.timer.time.SecondsTimeCalculator;
 
 public class CountdownTimerService {
     private final CountdownTimerServiceParameters parameters;

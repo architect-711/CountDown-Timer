@@ -1,4 +1,4 @@
-package utils.logger;
+package com.countdown_timer.utils.logger;
 
 public class Logger {
     public static void logException(Exception externalException) {

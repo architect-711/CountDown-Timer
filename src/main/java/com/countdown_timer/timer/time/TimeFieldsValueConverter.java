@@ -1,6 +1,6 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
-import constructors.TimeInputFields;
+import com.countdown_timer.constructores.TimeInputFields;
 
 public class TimeFieldsValueConverter {
     private final TimeInputFields timeInputFields;

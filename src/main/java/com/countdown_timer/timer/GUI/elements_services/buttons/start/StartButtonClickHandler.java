@@ -1,10 +1,10 @@
-package timer.GUI.elements_services.buttons.start;
+package com.countdown_timer.timer.GUI.elements_services.buttons.start;
 
-import constructors.ButtonClickHandlerParameters;
-import timer.GUI.elements_services.buttons.ButtonClickHandler;
-import timer.GUI.elements_services.buttons.start.validation.TimeInputFieldsValidator;
-import timer.GUI.elements_services.buttons.start.validation.ValidationException;
-import utils.logger.Logger;
+import com.countdown_timer.constructores.ButtonClickHandlerParameters;
+import com.countdown_timer.timer.GUI.elements_services.buttons.start.validation.TimeInputFieldsValidator;
+import com.countdown_timer.timer.GUI.elements_services.buttons.start.validation.ValidationException;
+import com.countdown_timer.utils.logger.Logger;
+import com.countdown_timer.timer.GUI.elements_services.buttons.ButtonClickHandler;
 
 import java.awt.event.ActionEvent;
 

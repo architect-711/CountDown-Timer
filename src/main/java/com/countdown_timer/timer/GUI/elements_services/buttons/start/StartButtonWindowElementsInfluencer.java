@@ -1,7 +1,7 @@
-package timer.GUI.elements_services.buttons.start;
+package com.countdown_timer.timer.GUI.elements_services.buttons.start;
 
-import constructors.WindowElementsInfluencerParameters;
-import timer.GUI.elements_services.buttons.ButtonsWindowElementsInfluencer;
+import com.countdown_timer.constructores.WindowElementsInfluencerParameters;
+import com.countdown_timer.timer.GUI.elements_services.buttons.ButtonsWindowElementsInfluencer;
 
 import java.util.Arrays;
 

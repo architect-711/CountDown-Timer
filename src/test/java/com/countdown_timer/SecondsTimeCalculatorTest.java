@@ -1,4 +1,4 @@
-package com.countdown_timer.test;
+package com.countdown_timer;
 
 import com.countdown_timer.constructores.TimeInputFields;
 import org.junit.jupiter.api.Test;

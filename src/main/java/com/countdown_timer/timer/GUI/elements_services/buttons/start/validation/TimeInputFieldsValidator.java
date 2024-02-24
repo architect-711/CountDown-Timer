@@ -1,8 +1,8 @@
-package timer.GUI.elements_services.buttons.start.validation;
+package com.countdown_timer.timer.GUI.elements_services.buttons.start.validation;
 
-import constructors.TimeInputFields;
-import timer.GUI.elements_services.input.InputTimeFieldsService;
-import utils.system_sound.SystemSoundCaller;
+import com.countdown_timer.constructores.TimeInputFields;
+import com.countdown_timer.utils.system_sound.SystemSoundCaller;
+import com.countdown_timer.timer.GUI.elements_services.input.InputTimeFieldsService;
 
 public class TimeInputFieldsValidator {
     private final TimeInputFields timeInputFields;

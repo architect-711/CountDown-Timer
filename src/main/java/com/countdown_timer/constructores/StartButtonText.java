@@ -1,6 +1,6 @@
-package constructors;
+package com.countdown_timer.constructores;
 
-import org.apache.commons.lang3.StringUtils
+import org.apache.commons.lang3.StringUtils;
 
 public class StartButtonText {
     private static final String START_BUTTON_CONTINUE_TEXT = StringUtils.capitalize(StartButtonStates.CONTINUE.name().toLowerCase());

@@ -1,8 +1,8 @@
-package timer.GUI.elements_services.buttons.stop;
+package com.countdown_timer.timer.GUI.elements_services.buttons.stop;
 
-import constructors.ButtonClickHandlerParameters;
-import constructors.StartButtonText;
-import timer.GUI.elements_services.buttons.ButtonClickHandler;
+import com.countdown_timer.constructores.ButtonClickHandlerParameters;
+import com.countdown_timer.constructores.StartButtonText;
+import com.countdown_timer.timer.GUI.elements_services.buttons.ButtonClickHandler;
 
 import java.awt.event.ActionEvent;
 

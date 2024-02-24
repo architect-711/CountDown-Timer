@@ -1,7 +1,7 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
-import constructors.TimeInputFields;
-import utils.system_sound.SystemSoundCaller;
+import com.countdown_timer.constructores.TimeInputFields;
+import com.countdown_timer.utils.system_sound.SystemSoundCaller;
 
 public class SecondsTimeCalculator {
     private final TimeInputFields timeInputFields;

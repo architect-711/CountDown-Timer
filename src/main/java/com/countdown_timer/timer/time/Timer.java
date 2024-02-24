@@ -1,4 +1,4 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
 public interface Timer {
     void start();

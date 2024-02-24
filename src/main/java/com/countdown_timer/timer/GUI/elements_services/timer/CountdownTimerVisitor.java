@@ -1,10 +1,10 @@
-package timer.GUI.elements_services.timer;
+package com.countdown_timer.timer.GUI.elements_services.timer;
 
-import timer.notification.NotificationSender;
-import timer.time.CountdownTimerMechanism;
-import timer.time.PrettyTime;
-import timer.time.SecondsTimeCalculator;
-import utils.logger.Logger;
+import com.countdown_timer.timer.notification.NotificationSender;
+import com.countdown_timer.timer.time.CountdownTimerMechanism;
+import com.countdown_timer.timer.time.PrettyTime;
+import com.countdown_timer.timer.time.SecondsTimeCalculator;
+import com.countdown_timer.utils.logger.Logger;
 
 import java.awt.*;
 

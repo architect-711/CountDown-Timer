@@ -1,4 +1,4 @@
-package com.countdown_timer.test;
+package com.countdown_timer;
 
 import org.junit.jupiter.api.Test;
 import com.countdown_timer.timer.time.PrettyTime;

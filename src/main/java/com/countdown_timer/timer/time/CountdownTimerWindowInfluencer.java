@@ -1,9 +1,9 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
-import constructors.Buttons;
-import constructors.StartButtonText;
-import constructors.TimeFields;
-import timer.GUI.elements_services.input.InputTimeFieldsService;
+import com.countdown_timer.constructores.Buttons;
+import com.countdown_timer.constructores.StartButtonText;
+import com.countdown_timer.constructores.TimeFields;
+import com.countdown_timer.timer.GUI.elements_services.input.InputTimeFieldsService;
 
 public class CountdownTimerWindowInfluencer {
     private final InputTimeFieldsService inputTimeFieldsService;

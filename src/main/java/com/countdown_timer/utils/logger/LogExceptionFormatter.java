@@ -1,4 +1,4 @@
-package utils.logger;
+package com.countdown_timer.utils.logger;
 
 public class LogExceptionFormatter {
     public static String getFormattedExceptionMessage(Exception exception) {

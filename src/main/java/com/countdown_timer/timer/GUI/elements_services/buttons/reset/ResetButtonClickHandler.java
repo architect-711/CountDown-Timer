@@ -1,7 +1,7 @@
-package timer.GUI.elements_services.buttons.reset;
+package com.countdown_timer.timer.GUI.elements_services.buttons.reset;
 
-import constructors.ButtonClickHandlerParameters;
-import timer.GUI.elements_services.buttons.ButtonClickHandler;
+import com.countdown_timer.constructores.ButtonClickHandlerParameters;
+import com.countdown_timer.timer.GUI.elements_services.buttons.ButtonClickHandler;
 
 import java.awt.event.ActionEvent;
 

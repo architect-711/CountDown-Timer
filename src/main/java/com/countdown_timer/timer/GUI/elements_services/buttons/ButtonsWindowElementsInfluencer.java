@@ -1,8 +1,8 @@
-package timer.GUI.elements_services.buttons;
+package com.countdown_timer.timer.GUI.elements_services.buttons;
 
-import constructors.Buttons;
-import constructors.TimeInputFields;
-import constructors.WindowElementsInfluencerParameters;
+import com.countdown_timer.constructores.Buttons;
+import com.countdown_timer.constructores.TimeInputFields;
+import com.countdown_timer.constructores.WindowElementsInfluencerParameters;
 
 public abstract class ButtonsWindowElementsInfluencer {
     private final Buttons buttons;

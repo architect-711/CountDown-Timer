@@ -1,4 +1,4 @@
-package constructors;
+package com.countdown_timer.constructores;
 
 import javax.swing.*;
 

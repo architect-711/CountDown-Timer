@@ -1,4 +1,4 @@
-package timer.GUI.elements_services.buttons.start.validation;
+package com.countdown_timer.timer.GUI.elements_services.buttons.start.validation;
 
 public class ValidationException extends Exception {
     private final String message;

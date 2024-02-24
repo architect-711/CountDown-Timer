@@ -1,4 +1,6 @@
-import utils.logger.Logger;
+package com.countdown_timer;
+
+import com.countdown_timer.utils.logger.Logger;
 
 public class Main {
     public static void main(String[] args) {

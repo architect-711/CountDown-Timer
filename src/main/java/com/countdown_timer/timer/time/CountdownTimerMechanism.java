@@ -1,11 +1,11 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
-import timer.GUI.elements_services.timer.TimerVisitor;
+import com.countdown_timer.timer.GUI.elements_services.timer.TimerVisitor;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public final class CountdownTimerMechanism implements timer.time.Timer {
+public final class CountdownTimerMechanism implements com.countdown_timer.timer.time.Timer {
     private final TimerVisitor visitor;
     private final CountdownTimerWindowInfluencer windowInfluencer;
 

@@ -1,6 +1,6 @@
-package timer.notification;
+package com.countdown_timer.timer.notification;
 
-import utils.system_sound.SystemSoundCaller;
+import com.countdown_timer.utils.system_sound.SystemSoundCaller;
 
 import java.awt.*;
 

@@ -1,6 +1,6 @@
-package timer.time;
+package com.countdown_timer.timer.time;
 
-import utils.system_sound.SystemSoundCaller;
+import com.countdown_timer.utils.system_sound.SystemSoundCaller;
 
 public class PrettyTime {
 

@@ -1,10 +1,10 @@
-package timer.GUI.elements_services.window;
+package com.countdown_timer.timer.GUI.elements_services.window;
 
-import constructors.Buttons;
-import constructors.TimeFields;
-import constructors.TimeInputFields;
-import timer.GUI.GUI;
-import timer.GUI.elements_action_listeners.ButtonsActionListener;
+import com.countdown_timer.constructores.Buttons;
+import com.countdown_timer.constructores.TimeFields;
+import com.countdown_timer.constructores.TimeInputFields;
+import com.countdown_timer.timer.GUI.GUI;
+import com.countdown_timer.timer.GUI.elements_action_listeners.ButtonsActionListener;
 
 public class OnWindowLoadHandler {
     private final TimeFields timeFields;

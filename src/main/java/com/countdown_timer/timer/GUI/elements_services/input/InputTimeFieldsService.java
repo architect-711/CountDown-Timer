@@ -1,6 +1,6 @@
-package timer.GUI.elements_services.input;
+package com.countdown_timer.timer.GUI.elements_services.input;
 
-import constructors.TimeInputFields;
+import com.countdown_timer.constructores.TimeInputFields;
 
 import java.util.Arrays;
 

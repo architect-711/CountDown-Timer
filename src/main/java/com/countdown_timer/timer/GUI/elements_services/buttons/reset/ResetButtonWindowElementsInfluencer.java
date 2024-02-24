@@ -1,9 +1,9 @@
-package timer.GUI.elements_services.buttons.reset;
+package com.countdown_timer.timer.GUI.elements_services.buttons.reset;
 
-import constructors.StartButtonText;
-import constructors.WindowElementsInfluencerParameters;
-import timer.GUI.elements_services.buttons.ButtonsWindowElementsInfluencer;
-import timer.GUI.elements_services.input.InputTimeFieldsService;
+import com.countdown_timer.constructores.StartButtonText;
+import com.countdown_timer.constructores.WindowElementsInfluencerParameters;
+import com.countdown_timer.timer.GUI.elements_services.buttons.ButtonsWindowElementsInfluencer;
+import com.countdown_timer.timer.GUI.elements_services.input.InputTimeFieldsService;
 
 public class ResetButtonWindowElementsInfluencer extends ButtonsWindowElementsInfluencer {
     public static ResetButtonWindowElementsInfluencer getResetButtonWindowElementsInfluencer(WindowElementsInfluencerParameters parameters) {
